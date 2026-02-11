@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI для студентов</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="image/favicon.jpg">
+</head>
+<body>
+    <div class="main-grid-container">
+        <header>
+            <h1>🤖 Искусственный интеллект для студентов</h1>
+            <nav>
+                <input type="checkbox" id="burger-toggle">
+                <label for="burger-toggle" class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-menu">
+                    <li><a href="#intro">Введение</a></li>
+                    <li><a href="#basics">Основы ИИ</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#social">Соц. сети</a></li>
+                </ul>
+            </nav>
+            <div class="notification-container">
+                <div class="notification-bell">
+                    <span>🔔</span>
+                </div>
+                <ul class="notification-list">
+                    <li><a href="#basics">Новое: Основы ИИ</a></li>
+                    <li><a href="#applications">Обновление: Применение ИИ</a></li>
+                    <li><a href="#gallery">Добавлены новые изображения</a></li>
+                    <li><a href="#contact">Форма связи обновлена</a></li>
+                </ul>
+            </div>
+            <!-- КНОПКА ВХОДА В ШАПКЕ -->
+            <a href="login.html" class="login-header-btn">🔐 Войти</a>
+        </header>
+
+        <main>
+            <section id="intro">
+                <h2>Введение в ИИ для студентов</h2>
+                <p>Добро пожаловать на сайт, посвящённый изучению <strong>искусственного интеллекта</strong> для студентов.</p>
+                <p>Здесь вы найдёте базовые понятия, примеры использования и полезные ресурсы.</p>
+                <a href="#contact">Перейти к контактам</a>
+            </section>
+
+            <section id="basics">
+                <h2>Основы ИИ</h2>
+                <h3>Что такое ИИ?</h3>
+                <p>Искусственный интеллект (<em>AI</em>) — это область компьютерных наук, которая стремится создать программное обеспечение или машины, способные выполнять задачи, обычно требующие человеческого интеллекта.</p>
+                <pre>
+                    // Пример псевдокода для мышления ИИ
+                    Если (условие) {
+                        Выполнить(действие);
+                    }
+                </pre>
+                <p>Некоторые важные термины:</p>
+                <ul>
+                    <li>Машинное обучение</li>
+                    <li>Нейронные сети</li>
+                    <li>Обработка естественного языка</li>
+                </ul>
+            </section>
+
+            <section id="applications">
+                <h2>Применение ИИ</h2>
+                <h3>Где используется ИИ?</h3>
+                <ol type="1" start="1">
+                    <li>Образование
+                        <ul>
+                            <li>Персонализированное обучение</li>
+                            <li>Системы оценки</li>
+                        </ul>
+                    </li>
+                    <li>Медицина</li>
+                    <li>Финансы</li>
+                </ol>
+
+                <dl>
+                    <dt>Машинное обучение</dt>
+                    <dd>Подраздел ИИ, который обучает компьютеры анализировать и использовать информацию.</dd>
+                    <dd>Самостоятельно выявлять закономерности.</dd>
+                    <dt>Нейронные сети</dt>
+                    <dd>Модель, имитирующая работу мозга.</dd>
+                    <dt>Обработка естественного языка</dt>
+                    <dd>Технология, позволяющая компьютерам понимать человеческий язык.</dd>
+                    <dd>Применяется в чат-ботах и переводчиках.</dd>
+                    <dt>Компьютерное зрение</dt>
+                    <dd>Возможность компьютера распознавать объекты на изображениях.</dd>
+                    <dt>Робототехника</dt>
+                    <dd>Использование ИИ для управления физическими устройствами.</dd>
+                </dl>
+
+                <p><img src="image/logo_ai.jpg" width="200" height="100" alt="Логотип ИИ"></p>
+                <p><img src="image/link_icon.jpg" width="150" height="150" alt="Ссылка на внешний ресурс"></p>
+
+                <p>
+                    <img src="image/ai_areas.jpg" alt="Области применения ИИ" usemap="#ai-map" width="300" height="200">
+                    <map name="ai-map">
+                        <area shape="rect" coords="0,0,100,100" href="#basics" alt="Основы ИИ">
+                        <area shape="circle" coords="200,75,50" href="#applications" alt="Применение">
+                        <area shape="poly" coords="100,150,150,100,200,150,150,200" href="#gallery" alt="Галерея">
+                    </map>
+                </p>
+            </section>
+
+            <section id="gallery">
+                <h2>Галерея ИИ</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item item-1"><img src="image/chatbot.jpg" alt="Чат-бот"></div>
+                    <div class="gallery-item item-2"><img src="image/vision.jpg" alt="Компьютерное зрение"></div>
+                    <div class="gallery-item item-3"><img src="image/ml.jpg" alt="Машинное обучение"></div>
+                    <div class="gallery-item item-4"><img src="image/robot.jpg" alt="Робот"></div>
+                    <div class="gallery-item item-5"><img src="image/nlp.jpg" alt="Обработка естественного языка"></div>
+                    <div class="gallery-item item-6"><img src="image/ai_history.gif" alt="Анализ данных"></div>
+                    <div class="gallery-item item-7"><img src="image/ai_ethics.jpg" alt="Этика ИИ"></div>
+                    <div class="gallery-item item-8"><img src="image/ai_futurism.jpg" alt="Будущее ИИ"></div>
+                    <div class="gallery-item item-9"><img src="image/data.jpg" alt="История ИИ"></div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Связаться с нами</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Информация</legend>
+                        <label for="name">Имя:</label>
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" required><br><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Ваш email" required><br><br>
+
+                        <label for="message">Сообщение:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" placeholder="Ваше сообщение..."></textarea><br><br>
+
+                        <input type="submit" value="Отправить">
+                    </fieldset>
+                </form>
+
+            <section id="video">
+                <h2>Видео о ИИ</h2>
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/9bZkp7q19f0" 
+                        title="Gangnam Style" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <div class="video-overlay">
+                        <p class="video-caption">Обзор современных ИИ моделей</p>
+                    </div>
+                </div>
+            </section>
+
+                <h3>Наше местоположение</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224548.3207932722!2d37.31941855!3d55.4504456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af0d5ae1d0d%3A0x12f0e5d0c0c0c0c0!2z0JzQvtC30LDRgdC60L7Qs9Cw!5e0!3m2!1sru!2sru!4v1730275200000!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Карта"></iframe>
+            </section>
+
+            <section id="glass">
+                <h2>Карточки Glassmorphism</h2>
+                <div class="glass-container">
+                    <div class="glass-card">
+                        <h3>ChatGPT</h3>
+                        <p>Самый популярный чат-бот.</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Midjourney</h3>
+                        <p>Генерация изображений.</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3>Sora</h3>
+                        <p>Генерация видео.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="social">
+                <h2>Социальные сети</h2>
+                <div class="social-container">
+                    <a href="https://steamcommunity.com/profiles/76561199443273335/" target="_blank" class="social-btn steam">Steam</a>
+                    <a href="https://t.me/galla_li" target="_blank" class="social-btn telegram">Telegram</a>
+                    <a href="https://github.com/AboL1uS" target="_blank" class="social-btn github">GitHub</a>
+                </div>
+            </section>
+
+            <section id="flex">
+                <h2>Flexbox карточки</h2>
+                <div class="flex-container">
+                    <div class="flex-card">
+                        <h3>Маш. Обучение</h3>
+                        <p>Обучение моделей.</p>
+                    </div>
+                    <div class="flex-card">
+                        <h3>Глубокое обучение</h3>
+                        <p>Нейронные сети.</p>
+                    </div>
+                    <div class="flex-card">
+                        <h3>NLP</h3>
+                        <p>Обработка языка.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="cards">
+                <h2>Карточки ИИ</h2>
+                <div class="cards-container">
+                    <div class="card card-1">
+                        <div class="card-header">01</div>
+                        <div class="card-content">
+                            <h3>Машинное обучение</h3>
+                            <p>Обучение моделей на данных для принятия решений.</p>
+                            <button class="card-btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="card card-2">
+                        <div class="card-header">02</div>
+                        <div class="card-content">
+                            <h3>Нейронные сети</h3>
+                            <p>Алгоритмы, имитирующие работу человеческого мозга.</p>
+                            <button class="card-btn">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="card card-3">
+                        <div class="card-header">03</div>
+                        <div class="card-content">
+                            <h3>Обработка языка</h3>
+                            <p>Технологии понимания и генерации человеческой речи.</p>
+                            <button class="card-btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="buttons">
+                <h2>Интерактивные элементы</h2>
+                <div class="button-container">
+                    <button class="btn btn-1">Hover 1</button>
+                    <button class="btn btn-2">Hover 2</button>
+                    <button class="btn btn-3">Hover 3</button>
+                    <button class="btn btn-4">Hover 4</button>
+                </div>
+            </section>
+
+            <section id="resources">
+                <h2>Полезные ресурсы</h2>
+                <div class="resources-box">
+                    <a href="https://www.coursera.org/learn/ai-for-everyone?spm=a2ty_o01.29997173.0.0.2b4e5171YFow5q" target="_blank"><h3>📚 Курсы по ИИ</h3></a>
+                    <a href="https://aima.cs.berkeley.edu/?spm=a2ty_o01.29997173.0.0.2b4e5171YFow5q"><h3>📖 Книги по ИИ</h3></a>
+                    <a href="https://arxiv.org/list/cs.AI/recent"><h3>🔬 Научные статьи</h3></a>
+                </div>
+            </section>
+            
+            <section id="js-task">
+                <h2>JavaScript: Панель управления ИИ</h2>
+                <div class="js-task-container">
+                    <div id="output"></div>
+                    <button id="like-btn">👍 Нравится</button>
+                    <div id="like-status">0</div>
+                    <button id="draw-btn">Начать рисование</button>
+                </div>
+            </section>
+            <section id="practical10">
+                    <h2>Практическая работа №10</h2>
+                        <button id="btn-accumulator">Тест Accumulator</button>
+                        <button id="btn-truncate">Тест Truncate</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 AI для студентов. Все права защищены.</p>
+        </footer>
+    </div>
+    <script src="skript.js"></script>
+</body>
+</html>

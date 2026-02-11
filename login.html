@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в панель управления</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 2rem;
+            background-color: rgba(13, 27, 13, 0.4);
+            border: 2px solid var(--neon-green);
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0, 204, 0, 0.5);
+        }
+        .login-container h2 {
+            margin-bottom: 1.5rem;
+            color: var(--neon-green-light);
+            text-shadow: 0 0 5px var(--neon-green);
+        }
+        .login-btn {
+            padding: 0.75rem 1.5rem;
+            margin-top: 1rem;
+            background-color: var(--neon-green);
+            color: var(--darker-bg);
+            border: none;
+            border-radius: 6px;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .login-btn:hover {
+            background-color: var(--neon-green-light);
+            transform: scale(1.03);
+        }
+        .back-link {
+            display: block;
+            margin-top: 1.5rem;
+            color: var(--neon-green);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>🔒 Вход в панель управления</h2>
+        <p>Нажмите кнопку ниже, чтобы начать вход.</p>
+        <button class="login-btn" id="start-login">Войти</button>
+        <a href="index.html" class="back-link">← Вернуться на главную</a>
+    </div>
+    <script src="l_script.js"></script>
+</body>
+</html>
